@@ -4,7 +4,7 @@
 Become a cripple, use a Blackchair...
 
 
-# Gold Standard WheelChair
+# Gold Standard Blackchair
 Remove all exisiting scripts. Blackchair is now a chromium based extension that will stop you from having to reinstall scripts.
 
 1. Navigate to chrome://extensions
