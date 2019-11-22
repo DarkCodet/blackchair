@@ -15,10 +15,10 @@ try {
 			// must be synchronous to force execution before other scripts
 			// note: we fetch the same code for each iframe
 			let request = new XMLHttpRequest();
-			request.open('GET', 'https://raw.githubusercontent.com/hrt/WheelChair/master/wheelchair.min.js', false);
+			request.open('GET', 'https://raw.githubusercontent.com/DarkCodet/blackchair/master/blackchair.min.js', false);
 			request.send(null);
 			if (request.status != 200) {
-				console.error('Error GET wheelchair: ' + request.status);
+				console.error('Error GET blackchair: ' + request.status);
 			}
 
 			const unique_string = chrome.runtime.getURL('').match(/\/\/(\w{9})\w+\//)[1];
