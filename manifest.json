@@ -1,0 +1,8 @@
+{
+  "name": "卐",
+  "version": "2.3.1",
+  "manifest_version": 2,
+  "description": "https://github.com/DarkCodet/blackchair",
+  "content_scripts": [
+  	{"matches":["https://krunker.io/", "https://krunker.io/*game*"],"run_at": "document_start","js": ["blackchairloader.js"],"all_frames":true,"match_about_blank":true}]
+}
